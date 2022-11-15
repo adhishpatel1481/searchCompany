@@ -2,7 +2,7 @@ body{
    margin: 0px;
    background-color: rgba(0, 0, 0, 0.053);
 }
-p{
+p{ 
    padding :5px;
    text-align: center;
 }
@@ -47,11 +47,12 @@ p{
 .adDetail{
    background-color: rgb(224, 179, 217);
    height:100%;
+   border-radius: 10% 0%;
 }
 .image{
    display: flex;
    width:280px;
-   height:100px;
+   height:330px;
    margin: auto;
 }
 .image:hover{
