@@ -1,0 +1,59 @@
+body{
+   margin: 0px;
+   background-color: rgba(0, 0, 0, 0.053);
+}
+p{
+   padding :5px;
+   text-align: center;
+}
+.searchBar{
+   display: flex;
+  height:60px;
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  margin:auto
+}
+.searchBar input{
+   border:1px solid green;
+   text-align: center;
+   padding: 2px;
+   height: 20px;
+   width:300px;
+}
+.searchBar input:hover{
+   background-color: antiquewhite;
+}
+.adsBody{
+   display:flex;
+   flex-wrap: wrap;
+   flex-direction:row;
+   justify-content: center;
+   text-align: center;
+}
+.ad{
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   height:400px;
+   border:1px solid green;
+   margin:10px ;
+   padding:5px;
+   border-radius: 5%;
+   background-color: aliceblue;
+   gap:5px;
+}
+.adDetail{
+   background-color: rgb(224, 179, 217);
+   height:100%;
+}
+.image{
+   display: flex;
+   width:280px;
+   height:100px;
+   margin: auto;
+}
+.image:hover{
+  border:2px solid blue 
+}
