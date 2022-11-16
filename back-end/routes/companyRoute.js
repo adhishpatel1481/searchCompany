@@ -1,7 +1,6 @@
-const { addCompany }=require('../controllers/companyController');
+const { addCompany } = require("../controllers/companyController");
+const router = require("express").Router();
 
-const router=require('express').Router();
+router.post("/addCompany", addCompany);
 
-router.post('/addCompany',addCompany);
-
-module.exports=router;
+module.exports = router;

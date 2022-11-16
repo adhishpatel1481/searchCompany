@@ -1,8 +1,7 @@
-const {addAds,searchAds}=require('../controllers/adsController');
+const { addAds, searchAds } = require("../controllers/adsController");
+const router = require("express").Router();
 
-const router=require('express').Router();
+router.post("/addAds", addAds);
+router.get("/search/:key", searchAds);
 
-router.post('/addAds',addAds);
-router.get('/search/:key',searchAds);
-
-module.exports=router;
+module.exports = router;
